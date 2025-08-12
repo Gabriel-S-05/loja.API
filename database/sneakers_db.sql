@@ -2,7 +2,7 @@
 CREATE DATABASE IF NOT EXISTS sneakers_db;
 USE sneakers_db;
 
--- Tabela de Usuários
+
 CREATE TABLE IF NOT EXISTS usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
