@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Loja de Tênis</title>
+    <link rel="stylesheet" href="../style/login.css">
+    <script src="../js/login.js" ></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login - Loja de Tênis</h2>
+            <form id="loginForm">
+                <div class="input-field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="input-field">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+                <input type="button" value="Cadastrar-se" onclick="login()"  />
+            </form>
+            <p>Não tem uma conta? <a href="../view/cadastro.html" id="registerButton">Cadastrar</a></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background: linear-gradient(135deg, #4c4c6d, #24243e);
+    color: #ffffff; 
+    background-attachment: fixed; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #a19d9d;
+}
+
+
+.nav-barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 85px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 0.8); 
+    padding: 15px 30px;
+}
+
+
+
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size:38px;
+    position: relative; 
+    padding: 0 5px; 
+    transition: color 0.3s ease; 
+}
+
+.nav-links li a:hover {
+    color: #3498db; 
+}
+
+
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px; 
+    width: 0;
+    height: 2px; 
+    background: #3498db; 
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+    left: 0; 
+}
+
+
+.nav-barra ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-barra ul li {
+    margin-left: 20px;
+}
+
+.nav-barra ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-barra ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.texto1 {
+    text-align: center;
+    margin: 50px auto; 
+    font-family: 'Roboto', sans-serif; 
+    max-width: 600px; 
+}
+
+.texto1 h1 {
+    font-size: 36px;
+    color: #d0caca;
+    font-weight: 700;
+}
+
+.texto1 p {
+    font-size: 18px;
+    margin: 20px 0; 
+    font-weight: 400;
+}
+
+
+
+.frente-da-loja {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.frente-da-loja img {
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#texto2 {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#texto2 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#texto2 ul {
+    list-style-type: none;
+}
+
+#why-choose-us ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+#Tenis-mais-vendidos {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#Tenis-mais-vendidos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.SNEAKER {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sneaker-item {
+    text-align: center;
+}
+
+.sneaker-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sneaker-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.preco {
+    font-size: 18px;
+    color: #2ecc71;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.texto3 {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.texto3 a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto3 a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 720px){
+    body {
+          font-size: 16px;
+          padding: 10px;
+        }
+    }
+      
+    @media (max-width: 480px) {
+    body{
+          font-size: 14px;
+          padding: 5px;
+        }
+    }

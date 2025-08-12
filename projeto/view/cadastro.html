@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/cadastro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style/cadastro.css">
+    <title>Cadastro / Sneakers</title>
+</head>
+<body>
+    <h1 class="titulo">Cadastro</h1>
+    <section class="form">
+        <div>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Nome completo" />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"  name="email" placeholder="E-mail" />
+
+                <label for="password">Senha:</label>
+                <input type="password"  id="password" name="password" placeholder="Digite a sua senha"/>
+
+                <label for="cpf_cnpj">CPF / CNPJ:</label>
+                <input type="text"  id="cpf_cpnj" name="cpf_cnpj" placeholder="CPF ou CNPJ"/>
+
+                <label for="birthday">Data de Nascimento:</label>
+                <input type="date"  id="birthday" name="birthday"/>
+
+                <label for="terms">Termos:</label>
+                <input type="checkbox" id="terms" name="terms"/>
+
+                <input type="button" value="Cadastrar-se" onclick="Usuario()"  />
+            </form>
+         </div>    
+    </section>
+</body>
+</html>

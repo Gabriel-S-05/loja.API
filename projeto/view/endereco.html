@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Endereço</title>
+    <link rel="stylesheet" href="../style/endereco.css">
+    <script src="../js/endereco.js"></script>
+    <script src="../js/logout.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        
+        <div class="logo-container">
+            <img src="../images/986ec700-a486-4b58-aef3-1add353d329c.webp" alt="Logo Sneakers" class="logo">
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../view/cadastro.html">Cadastro</a></li>
+            <li><a href="../view/listagemendereco.html">Lista de Endereços</a></li>
+            <li><button onclick="logout()" class="logout-btn">Logout</button></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="form-box">
+            <h2>Cadastrar Endereço</h2>
+            <form>
+                <div class="input-field">
+                    <label for="title">Título:</label>
+                    <input type="text" id="title">
+                </div>
+                <div class="input-field">
+                    <label for="cep">CEP:</label>
+                    <input type="text" id="cep">
+                </div>
+                <div class="input-field">
+                    <label for="address">Endereço:</label>
+                    <input type="text" id="address">
+                </div>
+                <div class="input-field">
+                    <label for="number">Número:</label>
+                    <input type="text" id="number">
+                </div>
+                <div class="input-field">
+                    <label for="complement">Complemento:</label>
+                    <input type="text" id="complement">
+                </div>
+                <input type="button" value="Cadastrar-se" onclick="cadastrarEndereco()" />
+            </form>
+            <p>Ver a lista de endereços <a href="../view/listagemendereco.html" id="registerButton">ver mais</a></p>
+        </div>
+    </div>
+</body>
+</html>
